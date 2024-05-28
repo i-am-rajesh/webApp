@@ -1,0 +1,24 @@
+/* Hide increment and decrement arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Change background color for dark mode */
+body {
+  background-color: #333;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
